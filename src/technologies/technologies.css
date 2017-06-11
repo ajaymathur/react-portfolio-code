@@ -1,0 +1,32 @@
+#tech-stack .heading {
+    color: cornsilk;
+    padding: 22px;
+    background: rgba(87, 88, 92, 0.88);
+}
+
+#technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgba(64, 65, 70, 0.88);
+}
+#technologies .chart-parent{
+    background-color: rgb(64, 65, 70);
+    color: rgba(255, 255, 255, 0.66);
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 0;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+}
+
+#technologies .chart-parent:hover {
+    transform: scale(1.1,1.1)
+}

@@ -1,0 +1,38 @@
+#home {
+    color: cornsilk;
+}
+
+#introduction {
+    background-color: rgb(43, 144, 143);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#home .heading {
+    padding: 22px;
+    background: rgba(43, 144, 143, 0.81);
+}
+
+#introduction .home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#introduction .image-section {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+
+#head-image {
+    background-image: url("./assets/ajay-narain-mathur.JPG");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 15px;
+}
