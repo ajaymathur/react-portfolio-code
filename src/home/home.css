@@ -15,11 +15,22 @@
     background: rgba(43, 144, 143, 0.81);
 }
 
+.contact-me-link {
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.contact-me-link + .contact-me-link{
+    margin-left: 10px;
+}
+
 #introduction .home-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
 
 #introduction .image-section {

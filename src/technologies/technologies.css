@@ -27,6 +27,20 @@
     transition: transform .5s;
 }
 
-#technologies .chart-parent:hover {
-    transform: scale(1.1,1.1)
+@media screen and ( max-width: 970px) {
+    #technologies .chart-parent {
+        width: 45%;
+    }
+}
+
+@media screen and ( max-width: 520px) {
+    #technologies .chart-parent {
+        width: 85%;
+    }
+}
+
+@media screen and ( min-width: 970px) {
+    #technologies .chart-parent:hover {
+        transform: scale(1.1,1.1)
+    }
 }
